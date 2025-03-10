@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECIReserves</title>
+</head>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/imask"></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center h-screen">
+
+<!-- Barra superior con el botón de retorno y título -->
+<div class="w-full bg-red-800 text-white py-4 flex items-center">
+    <button onclick="window.history.back();" class="ml-4 text-white text-2xl">
+        ←
+    </button>
+    <h1 class="text-2xl font-bold mx-auto">ECIReserves</h1>
+</div>
+
+<!-- Contenedor del formulario -->
+<div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full mt-10">
+    <form id="contactForm" class="space-y-4">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+        <div>
+            <label for="name" class="text-gray-700">Name</label>
+            <input type="text" id="name" name="name" placeholder="Value" class="mt-1 block w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-100">
+        </div>
+
+        <div>
+            <label for="id" class="text-gray-700">Id</label>
+            <input type="text" id="id" name="id" placeholder="Value" class="mt-1 block w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-100">
+        </div>
+
+        <div>
+            <label for="email" class="text-gray-700">Email</label>
+            <input type="email" id="email" name="email" placeholder="Value" class="mt-1 block w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-100">
+        </div>
+
+        <div>
+            <label for="password" class="text-gray-700">Password</label>
+            <input type="password" id="password" name="password" placeholder="Value" class="mt-1 block w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-100">
+        </div>
+
+        <div>
+            <button id="createUserBtn" type="submit" class="w-full bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800">
+                Crear
+            </button>
+        </div>
+    </form>
+</div>
+<script src="CreateUserFunction.js"></script>
+
+</body>
