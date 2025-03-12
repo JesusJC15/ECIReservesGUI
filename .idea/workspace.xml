@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ca3d0d7-afde-462f-9921-b5eb65f50928" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CreateUser/CreateUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateUser/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginUser/CreateUser/CreateUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginUser/CreateUser/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginUser/UserSession/Labs/Labs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginUser/UserSession/Labs/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginUser/UserSession/Profile/Profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginUser/UserSession/Profile/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginUser/UserSession/Reservations/Reservations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginUser/UserSession/Reservations/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginUser/UserSession/UserSession.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginUser/UserSession/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/CreateUser/CreateUser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/LoginUser/LoginUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/screens/LoginUser/LoginUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/LoginUser/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/screens/LoginUser/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/CorreoValido.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/CorreoValido.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/CreateUser/CreateUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/screens/CreateUser/CreateUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/CreateUser/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/screens/CreateUser/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/LoginAdmin/LoginAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/screens/LoginAdmin/LoginAdmin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741733990764</updated>
-      <workItem from="1741735450833" duration="16164000" />
+      <workItem from="1741735450833" duration="16729000" />
     </task>
     <servers />
   </component>
