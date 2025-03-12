@@ -31,7 +31,7 @@ Gestionar mis reservas:
 -  Inicio de sesión para usuarios y administradores.
 -  Gestión de laboratorios y reservas.
 -  Creación y administración de usuarios.
--  Diseño responsivo.
+
 
 ## Tecnologías Usadas
 - HTML, CSS, JavaScript
