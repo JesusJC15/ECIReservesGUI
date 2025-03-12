@@ -9,6 +9,24 @@ Index.html:
 El usuario final se logea de acuerdo a si es Administrador o Usuario
 ![Pantalla de Inicio](assets/inicio.png)
 
+Inicio de sesión:
+![image](assets/LoginUser.png)
+
+Crear usuario:
+![image](assets/CreateUser.png)
+
+Sesión iniciada de usuario:
+![image](assets/UserSession.png)
+
+Perfil de usuario:
+![image](assets/UserProfileFrame.png)
+
+Consultar laboratorios:
+![image](assets/Laboratories.png)
+
+Gestionar mis reservas:
+![image](assets/Reserves.png)
+
 ##  Características
 -  Inicio de sesión para usuarios y administradores.
 -  Gestión de laboratorios y reservas.

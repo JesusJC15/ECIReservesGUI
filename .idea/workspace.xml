@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ca3d0d7-afde-462f-9921-b5eb65f50928" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/screens/AdminRservPanel/CreateReserve/CreateReserve.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateUser/CreateUser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateUser/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AdminRservPanel/CreateReserve/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/AdminRservPanel/AdminRservPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AdminRservPanel/AdminRservPanel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/CreateLaboratory/laboratory-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/screens/CreateLaboratory/laboratory-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lupa.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +109,7 @@
       <updated>1741733990764</updated>
       <workItem from="1741735450833" duration="16729000" />
       <workItem from="1741789710851" duration="4137000" />
-      <workItem from="1741799574245" duration="1912000" />
+      <workItem from="1741799574245" duration="2630000" />
     </task>
     <servers />
   </component>
