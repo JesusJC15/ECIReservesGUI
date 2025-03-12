@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario - ECIReserves</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            position: relative;
+            background-color: #A02422;
+            color: white;
+            text-align: center;
+            padding: 60px 20px 40px;
+            font-size: 60px;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            height: 150px;
+            width: auto;
+        }
+
+        .title {
+            position: relative;
+            z-index: 1;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px; /* Separación del contenedor respecto al encabezado */
+        }
+
+
+        .back-button {
+            position: absolute;
+            top: 200px;
+            left: 20px;
+            background: #A02422;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .back-button:hover {
+            background: #7e1d1e;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+            max-width: 400px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-container input:focus {
+            border-color: #A02422;
+            outline: none;
+        }
+
+        .submit-button {
+            background: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .submit-button:hover {
+            background: #333;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <img src="../../assets/Logotipo-Escuela-Colombiana-de-Ingeniería-Julio-Garavito-5.png" class="logo"
+         alt="Logo Escuela">
+    <span class="title">EciReserves</span>
+</div>
+<div class="container">
+    <a href="../../index.html" class="back-button">Volver</a>
+
+
+    <div class="form-container">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" placeholder="Ingrese su correo electrónico" required>
+        <span id="email-error" class="error-message"></span>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" placeholder="Ingrese su contraseña" required>
+
+        <button class="submit-button" onclick="validateForm()">Iniciar sesión</button>
+    </div>
+</div>
+
+<script>CorreoValido.js</script>
+</body>
+</html>
