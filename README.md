@@ -45,10 +45,26 @@ CRUD Usuario
 ## Administra reservas
 ![Pantalla de Inicio](assets/AdminAdministraReservas.png)
 
+## En usuario
 
 
+Inicio de sesión:
+![image](assets/LoginUser.png)
 
+Crear usuario:
+![image](assets/CreateUser.png)
 
+Sesión iniciada de usuario:
+![image](assets/UserSession.png)
+
+Perfil de usuario:
+![image](assets/UserProfileFrame.png)
+
+Consultar laboratorios:
+![image](assets/Laboratories.png)
+
+Gestionar mis reservas:
+![image](assets/Reserves.png)
 
 
 
@@ -60,7 +76,7 @@ CRUD Usuario
 -  Inicio de sesión para usuarios y administradores.
 -  Gestión de laboratorios y reservas.
 -  Creación y administración de usuarios.
--  Diseño responsivo.
+
 
 ## Tecnologías Usadas
 - HTML, CSS, JavaScript
