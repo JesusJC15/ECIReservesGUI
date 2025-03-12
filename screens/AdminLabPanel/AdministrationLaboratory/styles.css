@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    background-color: #A02422;
+    color: white;
+    text-align: center;
+    padding: 60px 20px 40px;
+    font-size: 60px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 150px;
+    width: auto;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    margin: 20px;
+    text-align: center;
+}
+
+.back-button {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    background: #A02422;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background: #7e1d1e;
+}
+
+.page-title {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-button {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.filter-button:hover {
+    background: #333;
+}
+
+.table-container {
+    width: 90%;
+    max-width: 1000px;
+    height: 400px; /* Altura fija */
+    overflow-y: auto; /* Agrega la barra de desplazamiento */
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+}
+
+.lab-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lab-table th, .lab-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.lab-table thead {
+    background-color: #A02422;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.select-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.select-btn:hover {
+    background-color: #333;
+}
+
+
+
+.search-icon {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 5px;
+    color: black;
+}
+
+.search-icon:hover {
+    color: #A02422;
+}
+
+.select-button {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.select-button:hover {
+    background: #333;
+}

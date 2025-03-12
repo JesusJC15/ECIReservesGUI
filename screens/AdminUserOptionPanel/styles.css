@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    background-color: #A02422;
+    color: white;
+    text-align: center;
+    padding: 60px 20px 40px;
+    font-size: 60px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 150px;
+    width: auto;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+}
+
+.welcome-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.option-box {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.option-box:hover {
+    background: #ddd;
+    transform: scale(1.05);
+}
+
+.option-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+.back-button {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    background: #A02422;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background: #7e1d1e;
+}
