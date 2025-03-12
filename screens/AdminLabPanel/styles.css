@@ -52,20 +52,14 @@ body {
 }
 
 .option-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-    padding: 20px;
-    width: 300px;
-    background: white;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
     text-decoration: none;
     color: black;
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out, background 0.3s;
+    font-weight: normal;
 }
 
 .option-box:hover {
@@ -74,8 +68,28 @@ body {
 }
 
 .option-box img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
     margin-bottom: 10px;
+    object-fit: contain;
+}
+.back-button {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    background: #A02422;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background: #7e1d1e;
 }
