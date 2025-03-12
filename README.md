@@ -37,10 +37,10 @@ CRUD Usuario
 ![Pantalla de Inicio](assets/AdminAdministraLab.png)
 
 ## Administra Reservas
-![Pantalla de Inicio](assets/Admin Reservas.png)
+![Pantalla de Inicio](assets/Admin%20Reservas.png)
 
 ## Crear Reservas
-![Pantalla de Inicio](assets/AdminCreaReserva.png)
+![Pantalla de Inicio](assets/AdministradorCresReservas.png)
 
 ## Administra reservas
 ![Pantalla de Inicio](assets/AdminAdministraReservas.png)
