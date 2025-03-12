@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6ca3d0d7-afde-462f-9921-b5eb65f50928" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/lupa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/AdminRservPanel/CreateReserve/CreateReserve.html" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AdminRservPanel/CreateReserve/CreateReserve.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <updated>1741733990764</updated>
       <workItem from="1741735450833" duration="16729000" />
       <workItem from="1741789710851" duration="4137000" />
-      <workItem from="1741799574245" duration="2630000" />
+      <workItem from="1741799574245" duration="3308000" />
     </task>
     <servers />
   </component>

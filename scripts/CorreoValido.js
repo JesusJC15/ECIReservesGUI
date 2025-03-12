@@ -3,14 +3,14 @@ function validateForm() {
     let password = document.getElementById("password").value.trim();
     let emailError = document.getElementById("email-error");
 
-    // Expresión regular para validar correo electrónico
+
     let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!emailRegex.test(email)) {
         emailError.textContent = "Ingrese un correo válido.";
-        return false; // No envía el formulario
+        return false;
     } else {
-        emailError.textContent = ""; // Borra el mensaje de error
+        emailError.textContent = "";
     }
 
     if (password.length < 6) {
@@ -18,7 +18,7 @@ function validateForm() {
         return false;
     }
 
-    // Redirigir a la pantalla de sesión de usuario
+
     window.location.href = "Usersession.html";
-    return false; // Evita que el formulario se envíe de forma predeterminada
+    return false;
 }
