@@ -9,6 +9,53 @@ Index.html:
 El usuario final se logea de acuerdo a si es Administrador o Usuario
 ![Pantalla de Inicio](assets/inicio.png)
 
+## En administrador
+
+Se crea un administrador
+![Pantalla de Inicio](assets/Crear%20Usuarios.png)
+
+## Despues de crear
+CRUD Usuario
+![Pantalla de Inicio](assets/CRUD%20Admin.png)
+
+## Administra Usuarios
+![Pantalla de Inicio](assets/AdministrrUsuarios.png)
+
+## Crear Usuarios
+![Pantalla de Inicio](assets/AdminCrearUsuario.png)
+
+## Administrar Usuarios
+![Pantalla de Inicio](assets/AdminAdministraUusarios.png)
+
+## Administra Laboratorios
+![Pantalla de Inicio](assets/Administrar%20Laboratoris.png)
+
+## Crear Laboratorios
+![Pantalla de Inicio](assets/AdminCreaLab.png)
+
+## Administrar Laboratorios
+![Pantalla de Inicio](assets/AdminAdministraLab.png)
+
+## Administra Reservas
+![Pantalla de Inicio](assets/Admin Reservas.png)
+
+## Crear Reservas
+![Pantalla de Inicio](assets/AdminCreaReserva.png)
+
+## Administra reservas
+![Pantalla de Inicio](assets/AdminAdministraReservas.png)
+
+
+
+
+
+
+
+
+
+
+
+
 ##  Características
 -  Inicio de sesión para usuarios y administradores.
 -  Gestión de laboratorios y reservas.
