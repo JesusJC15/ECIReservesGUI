@@ -79,3 +79,22 @@ body {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+.back-button {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    background: #A02422;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background: #7e1d1e;
+}
