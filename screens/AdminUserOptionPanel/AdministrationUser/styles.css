@@ -27,13 +27,13 @@ body {
 .title {
     position: relative;
     z-index: 1;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+    margin: 20px;
+    text-align: center;
 }
 
 .back-button {
@@ -56,63 +56,57 @@ body {
     background: #7e1d1e;
 }
 
-.form-container {
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.search-bar {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 20px;
-    width: 100%;
-    max-width: 400px;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.form-container input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.form-container input:focus {
-    border-color: #A02422;
-    outline: none;
-}
-
-.submit-button {
-    background: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.submit-button:hover {
-    background: #333;
-}
-
-.error-message {
-    color: red;
-    font-size: 14px;
-}
-
-.button-group {
-    display: flex;
     gap: 10px;
-    width: 100%;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list li {
+    display: flex;
+    align-items: center;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.user-icon {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
-.create-button {
-    background: #A02422;
-}
-
-.create-button:hover {
-    background: #7e1d1e;
+.check-icon {
+    margin-left: auto;
 }
