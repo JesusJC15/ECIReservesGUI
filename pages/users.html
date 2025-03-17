@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/api.js"></script>
+    <script defer src="js/users.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Gestión de Usuarios</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Lista de Usuarios</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Rol</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="userTableBody"></tbody>
+        </table>
+
+        <h2>Agregar Usuario</h2>
+        <form id="userForm">
+            <input type="text" id="userId" placeholder="ID" required>
+            <input type="text" id="userName" placeholder="Nombre" required>
+            <input type="email" id="userEmail" placeholder="Email" required>
+            <input type="password" id="userPassword" placeholder="Contraseña" required>
+            <select id="userRole">
+                <option value="ADMIN">Admin</option>
+                <option value="USER">Usuario</option>
+            </select>
+            <button type="submit">Agregar</button>
+        </form>
+    </main>
+</body>
+</html>
