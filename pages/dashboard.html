@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+        <nav>
+            <a href="users.html">Usuarios</a>
+            <a href="laboratories.html">Laboratorios</a>
+            <a href="reservations.html">Reservas</a>
+            <a href="#" id="logout">Cerrar Sesión</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido</h2>
+        <p>Selecciona una opción en el menú.</p>
+    </main>
+    <script>
+        document.getElementById("logout").addEventListener("click", () => {
+            localStorage.removeItem("token");
+            window.location.href = "login.html";
+        });
+    </script>
+</body>
+</html>
