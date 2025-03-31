@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    background-color: #A02422;
+    color: white;
+    text-align: center;
+    padding: 60px 20px 40px;
+    font-size: 60px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 150px;
+    width: auto;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #A02422;
+}
+
+.user-role {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.user-info {
+    text-align: left;
+    font-size: 16px;
+}
+
+.back-button {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    background: #A02422;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background: #7e1d1e;
+}
+.create-button {
+    background: #A02422;
+}
+
+.create-button:hover {
+    background: #7e1d1e;
+}
+

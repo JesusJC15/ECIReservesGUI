@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Usuario - ECIReserves</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <img src="../../assets/Logotipo-Escuela-Colombiana-de-Ingeniería-Julio-Garavito-5.png" class="logo" alt="Logo Escuela">
+    <span class="title">EciReserves</span>
+</div>
+<div class="container">
+    <a href="../../screens/AdminUserOptionPanel/AdminUserOptionPanel.html" class="back-button">Volver</a>
+    <div class="form-container">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" placeholder="Ingrese su nombre" required>
+
+        <label for="id">ID:</label>
+        <input type="text" id="id" placeholder="Ingrese su ID" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" placeholder="Ingrese su correo electrónico" required>
+        <span id="email-error" class="error-message"></span>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" placeholder="Ingrese su contraseña" required>
+
+        <button class="submit-button">Crear</button>
+    </div>
+</div>
+
+<script src="CorreoValido.js"></script>
+</body>
+</html>
